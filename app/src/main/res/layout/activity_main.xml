@@ -24,36 +24,41 @@
             android:background="@drawable/circle"
             android:gravity="center"
             android:textColor="#ffffff"/>
-        <EditText
-            android:layout_width="250dp"
-            android:layout_height="40dp"
-            android:hint="Name"
-            android:inputType="textPersonName"
-            android:elevation="5dp"
-            android:textColorHint="#FFFBF8"
-            android:paddingLeft="15dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/btn"/>
 
         <EditText
+            android:id="@+id/nameInput"
             android:layout_width="250dp"
-            android:inputType="text"
             android:layout_height="40dp"
-            android:hint="Membership nr"
-            android:textColorHint="#FFFBF8"
-            android:paddingLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn"
             android:elevation="5dp"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/btn"/>
-        <Button
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:paddingLeft="15dp"
+            android:textColorHint="#FFFBF8" />
+
+        <EditText
+            android:id="@+id/memberNrInput"
             android:layout_width="250dp"
             android:layout_height="40dp"
-            android:text="Sign in"
-            android:textAllCaps="false"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn"
+            android:elevation="5dp"
+            android:hint="Membership nr"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColorHint="#FFFBF8" />
+
+        <Button
+            android:id="@+id/signInBtn"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/btncolor"
             android:elevation="5dp"
-            android:textColor="#FFFBF8"/>
+            android:text="Sign in"
+            android:textAllCaps="false"
+            android:textColor="#FFFBF8" />
 
     </LinearLayout>
 
