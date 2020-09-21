@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "858525078673",
+    "firebase_url": "https://the-nineth-hole.firebaseio.com",
+    "project_id": "the-nineth-hole",
+    "storage_bucket": "the-nineth-hole.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858525078673:android:2c37f7891e2e8b1c631b30",
+        "android_client_info": {
+          "package_name": "com.example.theninethhole"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "858525078673-4b43lpfelhom21rjv8g731lmlfkln73f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeR-Zh-Y3B6vb6UkwQ2xcJ7S8Xp35GG5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "858525078673-4b43lpfelhom21rjv8g731lmlfkln73f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

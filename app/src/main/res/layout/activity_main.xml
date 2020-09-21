@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="#3fff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGO"
+            android:textSize="17dp"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:textColor="#ffffff"/>
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:elevation="5dp"
+            android:textColorHint="#FFFBF8"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn"/>
+
+        <EditText
+            android:layout_width="250dp"
+            android:inputType="text"
+            android:layout_height="40dp"
+            android:hint="Membership nr"
+            android:textColorHint="#FFFBF8"
+            android:paddingLeft="15dp"
+            android:elevation="5dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn"/>
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="Sign in"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btncolor"
+            android:elevation="5dp"
+            android:textColor="#FFFBF8"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
